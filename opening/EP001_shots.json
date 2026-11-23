@@ -1,0 +1,131 @@
+{
+  "project": "第二个我",
+  "status": "storyboard only, no generated media",
+  "fps": 24,
+  "aspect_ratio": "9:16",
+  "resolution": [
+    1080,
+    1920
+  ],
+  "duration_sec": 30,
+  "art_style_lock": "vertical 9:16 premium Chinese 2D manhua motion comic, clean ink outlines, painterly cel shading, expressive natural anime faces, sophisticated cinematic lighting, cold blue-grey and silver palette, wet glossy stone floor, crisp focus, no lettering, no logo",
+  "character_locks": {
+    "heroine": "23-year-old Chinese woman, straight chin-length black bob, gray-blue eyes, tiny mole below her right eye, silver star hairpin on her own left temple, navy trench coat, black turtleneck",
+    "double": "23-year-old Chinese woman, identical face to Luo Ning with same bob haircut, gray-blue eyes, tiny mole below her right eye, silver star hairpin on her own left temple, ivory-white long coat, dark-red silk ribbon"
+  },
+  "scene_lock": "modern funeral hall at night in heavy rain, white chrysanthemums, black stone floors, dim high windows, cool blue-grey lighting",
+  "quality_checks": [
+    "mole and hairpin same anatomical side",
+    "identical face for double",
+    "navy vs white outfits",
+    "all screen text added in edit",
+    "no extra fingers",
+    "same hall layout",
+    "no random text"
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "start": 0,
+      "duration": 4,
+      "shot": "Extreme close-up",
+      "action": "Luo Ning grips a wet phone outside a funeral hall, her fingertips tremble, a notification glow illuminates her eyes; leave the phone screen blank for postproduction text.",
+      "camera": "very slow push-in, gentle shallow-depth parallax",
+      "character_ref": "Luo Ning",
+      "first_frame_prompt": "vertical 9:16 premium Chinese 2D manhua motion comic, clean ink outlines, painterly cel shading, expressive natural anime faces, sophisticated cinematic lighting, cold blue-grey and silver palette, wet glossy stone floor, crisp focus, no lettering, no logo; closeup of a rain-wet phone held by 23-year-old Chinese woman, straight chin-length black bob, gray-blue eyes, tiny mole below her right eye, silver star hairpin on her own left temple, navy trench coat, black turtleneck; modern funeral hall at night in heavy rain, white chrysanthemums, black stone floors, dim high windows, cool blue-grey lighting; PHONE SCREEN BLANK, no legible text",
+      "video_prompt": "Four seconds: rain runs down a phone held by a woman's trembling hand; the phone backlight gently turns on, and the camera slowly pushes closer. Keep her exact glove-free hand and costume consistent; no text generated.",
+      "narration": "我收到了自己的葬礼通知。",
+      "sfx": [
+        "heavy rain",
+        "low phone vibration"
+      ],
+      "post_text": "葬礼通知：罗宁 · 今晚 23:00"
+    },
+    {
+      "id": "S02",
+      "start": 4,
+      "duration": 5,
+      "shot": "Wide to medium",
+      "action": "The viewpoint slides through open funeral doors toward a black-framed portrait of Luo Ning; living Luo Ning is frozen in foreground.",
+      "camera": "slow dolly-in toward portrait while foreground remains silhouette",
+      "character_ref": "Luo Ning",
+      "first_frame_prompt": "vertical 9:16 premium Chinese 2D manhua motion comic, clean ink outlines, painterly cel shading, expressive natural anime faces, sophisticated cinematic lighting, cold blue-grey and silver palette, wet glossy stone floor, crisp focus, no lettering, no logo; modern funeral hall at night in heavy rain, white chrysanthemums, black stone floors, dim high windows, cool blue-grey lighting; 23-year-old Chinese woman, straight chin-length black bob, gray-blue eyes, tiny mole below her right eye, silver star hairpin on her own left temple, navy trench coat, black turtleneck seen from behind in foreground; far end: memorial portrait depicting her same face inside dark frame, white flowers, elegant composition, no text",
+      "video_prompt": "Five seconds: slow dolly into a quiet funeral hall; white chrysanthemum petals tremble in a draft; the memorial portrait of the heroine becomes the focal point. Living heroine in foreground barely moves. Do not change face in portrait or clothing.",
+      "narration": "可我，明明还活着。",
+      "sfx": [
+        "distant thunder",
+        "low string pad"
+      ],
+      "post_text": null
+    },
+    {
+      "id": "S03",
+      "start": 9,
+      "duration": 5,
+      "shot": "Eye close-up to reveal",
+      "action": "Close on Luo Ning's shocked eyes; in depth of field a woman in white is seen from behind beside a coffin.",
+      "camera": "rack focus from eyes to mysterious white-clad silhouette",
+      "character_ref": "Luo Ning + Double",
+      "first_frame_prompt": "vertical 9:16 premium Chinese 2D manhua motion comic, clean ink outlines, painterly cel shading, expressive natural anime faces, sophisticated cinematic lighting, cold blue-grey and silver palette, wet glossy stone floor, crisp focus, no lettering, no logo; modern funeral hall at night in heavy rain, white chrysanthemums, black stone floors, dim high windows, cool blue-grey lighting; extreme closeup of eyes of 23-year-old Chinese woman, straight chin-length black bob, gray-blue eyes, tiny mole below her right eye, silver star hairpin on her own left temple, navy trench coat, black turtleneck; distant figure of 23-year-old Chinese woman, identical face to Luo Ning with same bob haircut, gray-blue eyes, tiny mole below her right eye, silver star hairpin on her own left temple, ivory-white long coat, dark-red silk ribbon seen strictly from back, standing by coffin, white chrysanthemums, deep perspective",
+      "video_prompt": "Five seconds: heroine's eyes narrow in disbelief, subtle blink; rack focus toward the distant white coat by the coffin. The white-clad figure stays turned away. No face morphing, no large gestures.",
+      "narration": "直到我看见……",
+      "sfx": [
+        "thunder hit then brief silence"
+      ],
+      "post_text": null
+    },
+    {
+      "id": "S04",
+      "start": 14,
+      "duration": 5,
+      "shot": "Medium revealing portrait",
+      "action": "The white-coated woman turns her head from a three-quarter back pose and reveals exactly Luo Ning's face, calmly smiling.",
+      "camera": "restrained 10 percent push-in to center",
+      "character_ref": "Double",
+      "first_frame_prompt": "vertical 9:16 premium Chinese 2D manhua motion comic, clean ink outlines, painterly cel shading, expressive natural anime faces, sophisticated cinematic lighting, cold blue-grey and silver palette, wet glossy stone floor, crisp focus, no lettering, no logo; modern funeral hall at night in heavy rain, white chrysanthemums, black stone floors, dim high windows, cool blue-grey lighting; 23-year-old Chinese woman, identical face to Luo Ning with same bob haircut, gray-blue eyes, tiny mole below her right eye, silver star hairpin on her own left temple, ivory-white long coat, dark-red silk ribbon in 3/4 rear view by funeral flowers, head half turned, face profile barely visible; mirror of other character face, no text",
+      "video_prompt": "Five seconds: she slowly turns head to camera to reveal her identical face, then forms a faint unsettling smile. Keep hair length, mole, silver star clip and white coat fixed; only head rotation and minimal hair motion, no warping.",
+      "narration": "另一个我。",
+      "sfx": [
+        "low bass drone"
+      ],
+      "post_text": null
+    },
+    {
+      "id": "S05",
+      "start": 19,
+      "duration": 6,
+      "shot": "Two-shot, chest height",
+      "action": "The double advances one measured step; heroine steps backward; their reflections diverge across wet stone floor.",
+      "camera": "slow lateral slide, maintain screen direction",
+      "character_ref": "Luo Ning + Double",
+      "first_frame_prompt": "vertical 9:16 premium Chinese 2D manhua motion comic, clean ink outlines, painterly cel shading, expressive natural anime faces, sophisticated cinematic lighting, cold blue-grey and silver palette, wet glossy stone floor, crisp focus, no lettering, no logo; modern funeral hall at night in heavy rain, white chrysanthemums, black stone floors, dim high windows, cool blue-grey lighting; tense two-shot: 23-year-old Chinese woman, straight chin-length black bob, gray-blue eyes, tiny mole below her right eye, silver star hairpin on her own left temple, navy trench coat, black turtleneck foreground frame left, 23-year-old Chinese woman, identical face to Luo Ning with same bob haircut, gray-blue eyes, tiny mole below her right eye, silver star hairpin on her own left temple, ivory-white long coat, dark-red silk ribbon midground frame right, facing one another, wet dark floor reflecting two silhouettes, no text",
+      "video_prompt": "Six seconds: white-coated double takes one deliberate small step toward the navy-coated heroine; navy-coated heroine takes one small step backwards; camera slides to the right. Faces and costumes remain identical to anchors. Calm expression, no complex lip movement.",
+      "dialogue": {
+        "speaker": "第二个罗宁",
+        "text": "你来晚了。现在，你才是多余的。"
+      },
+      "sfx": [
+        "one heel step",
+        "faint heartbeat"
+      ],
+      "post_text": null
+    },
+    {
+      "id": "S06",
+      "start": 25,
+      "duration": 5,
+      "shot": "Phone impact to black title card",
+      "action": "A phone drops to reflective black floor; blue light pulses. At 27s hard cut to black background and postproduction title.",
+      "camera": "quick tilt down, one small impact bounce, smash cut to black",
+      "character_ref": "Luo Ning hand only",
+      "first_frame_prompt": "vertical 9:16 premium Chinese 2D manhua motion comic, clean ink outlines, painterly cel shading, expressive natural anime faces, sophisticated cinematic lighting, cold blue-grey and silver palette, wet glossy stone floor, crisp focus, no lettering, no logo; modern funeral hall at night in heavy rain, white chrysanthemums, black stone floors, dim high windows, cool blue-grey lighting; closeup of ungloved female hand letting go of dark smartphone above reflective black stone floor, blank glowing blue display, white chrysanthemums blurred far away, no text",
+      "video_prompt": "First two seconds: phone slips from a woman's fingers and falls to black stone floor, very short restrained bounce; screen glows blue without characters. Last three seconds: editorial hard cut to black title card added outside AI model. No additional objects, no extra fingers.",
+      "sfx": [
+        "phone clack",
+        "heartbeat",
+        "bass impact"
+      ],
+      "post_text": "《第二个我》\\n第一集"
+    }
+  ]
+}
